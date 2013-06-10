@@ -92,6 +92,11 @@ html {
     padding: 8px;
 }
 
+.instructions a {
+    text-decoration: none;
+    color: rgb(0, 255, 192);
+}
+
 .paused {
     position: absolute;
     top: 0;
