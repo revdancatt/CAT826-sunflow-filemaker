@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #1b1b1b;
+    background-image: url(../img/background.png);
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.threeHolder {
+    position: relative;
+    width: 16px;
+    height: 9px;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin: auto;
+}
+
+.allowcamera {
+    position: fixed;
+    top: 40px;
+    right: 8px;
+    width: 320px;
+    height: 80px;
+    padding: 12px;
+    background: #CCC;
+    font-size: 18px;
+    font-family: monospace;
+    color: black;
+    border-radius: 12px;
+    display: none;
+}
+
+.nowebGL,
+.firefoxBug {
+    position: absolute;
+    width: 320px;
+    height: 80px;
+    left: 50%;
+    top: 50%;
+    margin-left: -160px;
+    margin-top: -40px;
+    padding: 12px;
+    background: #CCC;
+    font-size: 18px;
+    font-family: monospace;
+    color: black;
+    border-radius: 12px;
+    display: none;
+}
+
+.showScene {
+    top: 0px;
+    width: 320px;
+    height: 80px;
+    padding: 12px;
+    background: #CCC;
+    font-size: 18px;
+    font-family: monospace;
+    color: black;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrowUp {
+    position: absolute;
+    right: 34px;
+    top: -36px;
+    width: 32px;
+    height: 46px;
+    background: url(../img/arrow.png);
+}
+
+.instructions {
+    position: fixed;
+    top: 4px;
+    left: 4px;
+    background: rgba(64, 64, 64, 0.4);
+    border: rgba(64, 64, 64, 0.8);
+    color: #ddd;
+    font-size: 12px;
+    font-family: monospace;
+    padding: 8px;
+}
+
+.paused {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #F8B84E;
+    font-size: 18px;
+    padding-top: 8px;
+    font-family: monospace;
+    display: none;
+}
+
+#webcam {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: 120px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#hiddenStuff,
+.hidden {
+    display: none;
+}

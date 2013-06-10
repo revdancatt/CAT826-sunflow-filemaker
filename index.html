@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <head>
+    <title>CAT826 sunflow filemaker</title>
+    <link rel="stylesheet" href="css/main.css?v=0.1">
+    <link  rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.3.custom.css">
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+</head>
+<body>
+
+
+    <div class="threeHolder">
+    </div>
+    
+    <div class="webcamHolder">
+        <video id="webcam" width="160" height="120"></video>
+    </div>
+
+    <div id="hiddenStuff">
+        <canvas id="webcamcanvas" width="40" height="30"></canvas>
+    </div>
+
+    <div class="allowcamera ui-widget ui-widget-content ui-corner-all">
+        This project uses the webcam, please "Allow" it using
+        the button up there, thank you.
+        <div class="arrowUp"></div>
+    </div>
+
+    <div class="nowebGL ui-widget ui-widget-content ui-corner-all">
+        Sorry, this project uses webGL. You'll probably need to use
+        the latest version of Chrome.
+    </div>
+
+    <div class="firefoxBug ui-widget ui-widget-content ui-corner-all">
+        Sorry, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=771833">this bug</a> in Firefox
+        is stopping the code from being able to get to the webcam. You'll probably need to use
+        the latest version of Chrome.
+    </div>
+
+    <div class="instructions">
+        WASD: left/right, zoom in/out<br />
+        Q &amp; Z: move camera up/down<br />
+        E &amp; C: move look-at target up/down<br />
+        P: paused/unpause<br />
+        R: create sunflow scene description
+    </div>
+
+    <div id="dialog" title="Scene ready" class="hidden">
+        <p>
+            Ready! Click <a href="scene.html" target="_blank" class="showScene">here</a> to open scene file in new tab.
+        </p>
+    </div>
+
+    <div class="paused">
+        paused
+    </div>
+
+    <script src="js/jquery-2.0.0.min.js"></script> 
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/control.js?v=0.5.3"></script>
+    <script src="js/cubes.js?v=0.5"></script>
+    <script>
+        $(document).ready(function() {
+            $( "#dialog" ).dialog({
+                autoOpen: false,
+                width: 400
+            });
+
+
+            control.init();
+        })
+    </script>    
+
+</body>
+</html>
