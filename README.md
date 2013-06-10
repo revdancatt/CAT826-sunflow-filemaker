@@ -44,6 +44,8 @@ Click the render button.
 
 Share and Enjoy.
 
+![Final image](https://raw.github.com/revdancatt/CAT826-sunflow-filemaker/master/img/final.jpg)
+
 Isn't this all a bit of a faff?
 ===============================
 
