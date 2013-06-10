@@ -503,7 +503,7 @@ control = {
         var d = new Date();
 
         var comment = '/*\n' +
-        '# This is a Sunflow scene file, save this file as "scene.sc" and load it into Sunflow to be rendered.\n' +
+        '# This is a Sunflow scene description. Do a Select All and copy & paste into a text document,\nsave as "scene.sc" and load it into Sunflow to be rendered.\n' +
         '# Sunflow: http://sunflow.sourceforge.net/\n' +
         '# "scene.sc" can be any filename you like, but needs the .sc extension.\n' +
         '#\n' +
