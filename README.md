@@ -58,7 +58,7 @@ quality renders).
 This is less faffing than asking someone to set that up, and I'm totally not going to run
 Sunflow as a service (which is a shame tbh).
 
-This blogpost: (link to blogpost here) explains more.
+This blogpost: http://revdancatt.com/2013/06/10/cat826-the-one-with-the-cubes-javascript-in-the-rendering-tools-chain/ explains more.
 
 
 
