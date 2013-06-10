@@ -5,7 +5,7 @@ CAT826-sunflow-filemaker
 
 Takes webcam input, turns it into 3D cubes, outputs Sunflow scene files that can be rendered into images that look like this...
 
-[Example cubes](https://raw.github.com/revdancatt/CAT826-sunflow-filemaker/master/img/example.jpg)
+![Example cubes](https://raw.github.com/revdancatt/CAT826-sunflow-filemaker/master/img/example.jpg)
 
 ...to do the same thing you will need...
 
