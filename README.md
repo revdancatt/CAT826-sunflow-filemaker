@@ -15,6 +15,8 @@ Takes webcam input, turns it into 3D cubes, outputs Sunflow scene files that can
 4. A copy of [Sunflow](http://sunflow.sourceforge.net/).
 5. Patience.
 
+Blogpost, more information: [CAT826: The one with the cubes, javascript in the rendering tools chain.](http://revdancatt.com/2013/06/10/cat826-the-one-with-the-cubes-javascript-in-the-rendering-tools-chain)
+
 Instructions
 ============
 
@@ -24,7 +26,7 @@ The view from your webcam should appear in the top-right corner and a 3D cube ve
 
 ![Step 1](https://raw.github.com/revdancatt/CAT826-sunflow-filemaker/master/img/step1.jpg)
 
-Use the controls to move the camera around the cubes until you get the view you want ([read here](http://revdancatt.com)) if you
+Use the controls to move the camera around the cubes until you get the view you want ([read here](http://revdancatt.com/2013/06/10/cat826-the-one-with-the-cubes-javascript-in-the-rendering-tools-chain/#weirdcontrols)) if you
 want to know why the controls are a bit odd. Once you're happy press 'R' a dialog box asking you to click a link should appear...
 
 ![Step 2](https://raw.github.com/revdancatt/CAT826-sunflow-filemaker/master/img/step2.jpg)
